@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "SeleniumJavaForBCRSignIn" verbose="1" 
+	configfailurepolicy="continue">
+		<test name = "To validate Buggy Cars Rating LogIn Feature"
+			annotations="JDK" preserve-order ="true" enabled ="true">
+				<classes>
+					<class name = "test.SignInTest"/>
+					</classes>
+				
+		</test>
+				
+</suite>

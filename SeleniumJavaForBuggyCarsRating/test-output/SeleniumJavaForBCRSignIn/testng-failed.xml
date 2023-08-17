@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" name="Failed suite [SeleniumJavaForBCRSignIn]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="To validate Buggy Cars Rating LogIn Feature(failed)">
+    <classes>
+      <class name="test.SignInTest">
+        <methods>
+          <include name="verifyLoginIntoBuggyCarsRatingApp" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="setupInitial"/>
+          <include name="getMethodName"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="AfterTest"/>
+        </methods>
+      </class> <!-- test.SignInTest -->
+    </classes>
+  </test> <!-- To validate Buggy Cars Rating LogIn Feature(failed) -->
+</suite> <!-- Failed suite [SeleniumJavaForBCRSignIn] -->

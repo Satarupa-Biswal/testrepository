@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" name="Failed suite [SeleniumJavaForBCRNavigateHomePage]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="To verify to be able to vote for the popular make(failed)">
+    <classes>
+      <class name="test.NavigatingToHomeTest">
+        <methods>
+          <include name="verifyNavigationToHomePage" invocation-numbers="0"/>
+          <include name="setupInitial"/>
+          <include name="beforeTest"/>
+          <include name="getMethodName"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="AfterTest"/>
+        </methods>
+      </class> <!-- test.NavigatingToHomeTest -->
+    </classes>
+  </test> <!-- To verify to be able to vote for the popular make(failed) -->
+</suite> <!-- Failed suite [SeleniumJavaForBCRNavigateHomePage] -->

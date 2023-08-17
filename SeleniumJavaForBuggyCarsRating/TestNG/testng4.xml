@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "SeleniumJavaForBCRBrokenVehicleImage" verbose="1" 
+	configfailurepolicy="continue">
+		
+		<test name = "To verify to be able to vote for the popular make"
+			annotations="JDK" preserve-order ="true" enabled ="true">
+				
+				<classes>
+					<class name = "test.OverAllRatingTest"/>
+				</classes>
+		</test>
+		
+</suite>
